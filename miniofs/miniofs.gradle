@@ -1,0 +1,16 @@
+archivesBaseName = 'jmix-miniofs'
+
+dependencies {
+    api 'io.jmix.core:jmix-core'
+
+    implementation 'io.minio:minio:8.3.5'
+
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+    testImplementation 'org.springframework.boot:spring-boot-starter-web'
+}
+
+test {
+    useJUnitPlatform()
+}

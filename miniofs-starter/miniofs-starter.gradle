@@ -1,0 +1,13 @@
+archivesBaseName = 'jmix-miniofs-starter'
+
+jmix {
+    entitiesEnhancing {
+        enabled = false
+    }
+}
+
+dependencies {
+    api project(':miniofs')
+
+    implementation 'org.springframework.boot:spring-boot-autoconfigure'
+}
