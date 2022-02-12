@@ -11,7 +11,7 @@ import org.springframework.jmx.export.annotation.ManagedResource;
 import org.springframework.stereotype.Component;
 
 @ManagedResource(description = "Manages MinIO file storage client", objectName = "jmix.miniofs:type=MinioFileStorage")
-@Component("miniofs_AwsFileStorageManagementFacade")
+@Component("miniofs_MinioFileStorageManagementFacade")
 public class MinioFileStorageManagementFacade {
 
   @Autowired
