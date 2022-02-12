@@ -20,7 +20,7 @@ Here's an example for a local MinIO storage:
 jmix.miniofs.endpointUrl = http://localhost:9000
 jmix.miniofs.accessKey = minioadmin
 jmix.miniofs.secretKey = minioadmin
-jmix.miniofs.bucket=my-bucket
+jmix.miniofs.bucket = my-bucket
 ```
 
 ## Configuration
