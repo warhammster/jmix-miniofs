@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.jmix.miniofs;
+package dev.warhammster.jmix.miniofs;
 
 import static io.jmix.core.FileStorageException.Type.IO_EXCEPTION;
 import static io.jmix.core.UuidProvider.createUuid;

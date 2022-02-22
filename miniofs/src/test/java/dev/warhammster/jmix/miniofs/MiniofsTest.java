@@ -1,4 +1,4 @@
-package io.jmix.miniofs;
+package dev.warhammster.jmix.miniofs;
 
 import org.springframework.boot.test.context.SpringBootTest;
 

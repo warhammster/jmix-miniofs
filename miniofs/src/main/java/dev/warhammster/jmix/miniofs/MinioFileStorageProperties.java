@@ -1,4 +1,4 @@
-package io.jmix.miniofs;
+package dev.warhammster.jmix.miniofs;
 
 import javax.annotation.Nullable;
 import org.springframework.boot.context.properties.ConfigurationProperties;

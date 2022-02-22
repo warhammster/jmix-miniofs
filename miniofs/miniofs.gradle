@@ -1,4 +1,4 @@
-archivesBaseName = 'jmix-miniofs'
+archivesBaseName = 'miniofs'
 
 dependencies {
     api 'io.jmix.core:jmix-core'

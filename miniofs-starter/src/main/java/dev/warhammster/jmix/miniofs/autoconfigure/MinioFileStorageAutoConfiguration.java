@@ -14,17 +14,16 @@
  * limitations under the License.
  */
 
-package io.jmix.miniofs;
+package dev.warhammster.jmix.miniofs.autoconfigure;
 
+import dev.warhammster.jmix.miniofs.MinioFileStorageConfiguration;
 import io.jmix.core.CoreConfiguration;
-import io.jmix.core.annotation.JmixModule;
-import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 
 @Configuration
-@ComponentScan
-@ConfigurationPropertiesScan
-@JmixModule(dependsOn = CoreConfiguration.class)
-public class MinioFileStorageConfiguration {
+@Import({CoreConfiguration.class, MinioFileStorageConfiguration.class})
+public class MinioFileStorageAutoConfiguration {
+
 }
+

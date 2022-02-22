@@ -1,4 +1,4 @@
-archivesBaseName = 'jmix-miniofs-starter'
+archivesBaseName = 'miniofs-starter'
 
 jmix {
     entitiesEnhancing {

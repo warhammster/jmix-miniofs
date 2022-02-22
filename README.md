@@ -8,7 +8,7 @@ This repository contains [MinIO](https://min.io/) File Storage addon of the [Jmi
 Add to your project's `build.gradle` dependencies:
 
 ```groovy
-implementation 'io.jmix.miniofs:jmix-miniofs-starter:1.1.0'
+implementation 'dev.warhammster.jmix:jmix-miniofs-starter:1.1.0'
 ```
 
 ## Quick start

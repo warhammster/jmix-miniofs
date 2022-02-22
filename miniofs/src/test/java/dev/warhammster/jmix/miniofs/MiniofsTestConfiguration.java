@@ -1,4 +1,4 @@
-package io.jmix.miniofs;
+package dev.warhammster.jmix.miniofs;
 
 import io.jmix.core.annotation.JmixModule;
 import org.springframework.boot.SpringBootConfiguration;
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Import;
 @SpringBootConfiguration
 @EnableAutoConfiguration
 @Import(MinioFileStorageConfiguration.class)
-@JmixModule(id = "io.jmix.miniofs.test", dependsOn = MinioFileStorageConfiguration.class)
+@JmixModule(id = "dev.warhammster.jmix.miniofs.test", dependsOn = MinioFileStorageConfiguration.class)
 public class MiniofsTestConfiguration {
 
 }

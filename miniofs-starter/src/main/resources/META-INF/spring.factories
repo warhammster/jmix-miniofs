@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  io.jmix.miniofs.autoconfigure.MinioFileStorageAutoConfiguration
+  dev.warhammster.jmix.miniofs.autoconfigure.MinioFileStorageAutoConfiguration

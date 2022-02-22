@@ -7,7 +7,7 @@ buildscript {
     }
 }
 
-group = 'io.jmix.miniofs'
+group = 'dev.warhammster.jmix'
 
 subprojects {
     apply plugin: 'java-library'

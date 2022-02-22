@@ -1,4 +1,4 @@
-package io.jmix.miniofs;
+package dev.warhammster.jmix.miniofs;
 
 import io.jmix.core.FileStorage;
 import io.jmix.core.FileStorageLocator;
