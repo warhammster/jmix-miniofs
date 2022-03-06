@@ -1,0 +1,7 @@
+<credits xmlns="http://jmix.io/schema/core/credits">
+	<items>
+		<item name="MinIO Java SDK" url="https://docs.min.io/docs/java-client-quickstart-guide.html">
+			<license ref="apache-2.0"/>
+		</item>
+	</items>
+</credits>
