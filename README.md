@@ -1,3 +1,7 @@
+# DEPRECATED
+
+The addon is abandoned. Consider to use [AWS File Storage](https://www.jmix.ru/marketplace/aws-file-storage/) instead.
+
 # Jmix MinIO File Storage
 
 This repository contains [MinIO](https://min.io/) File Storage addon of the [Jmix](https://jmix.io) framework.
